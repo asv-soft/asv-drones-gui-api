@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98675f87-5439-45f3-b29e-d885d92d969c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Asv.Drones.Gui.Api/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Asv.Drones.Gui.Api.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/App.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Asv.Drones.Gui.Api.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Asv.Drones.Gui.Api.csproj.DotSettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/CompatibilitySuppressions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/FodyWeavers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/RS.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/RS.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/RS.ru.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/AppHost/IAppArgs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/AppHost/IAppInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/AppHost/IAppPathInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/AppHost/IApplicationHost.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/AppHost/IThemeInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/DialogService/IDialogService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Localization/ILocalizationService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Localization/IMeasureUnit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Localization/IReadOnlyMeasureUnit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Localization/LocalizationHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Localization/MeasureUnitBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/LogService/ILogService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/LogService/NullLogService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Map/IMapService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Mavlink/IMavlinkDevicesService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Mavlink/MavlinkHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/MissionPlaning/IPlaningMission.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/MissionPlaning/PlaningMissionFile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/MissionPlaning/PlaningMissionModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Plugins/ILocalPluginInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Plugins/IPluginEntryPoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Plugins/IPluginManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Plugins/IPluginManuallyInstallable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Plugins/NullPluginManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/Plugins/PluginEntryPointAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/SdrStore/ISdrStoreService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/ServiceWithConfigBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Services/SoundNotification/ISoundNotificationService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Header/DefaultHeaderMenuProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Header/IMenuItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Header/MenuItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/IShell.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Menu/IShellMenuItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Menu/ShellMenuItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Pages/ExportShellPageAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Pages/IShellPage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Pages/LogViewer/LogItemViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Pages/PacketViewer/Converters/DefaultPacketConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Pages/PacketViewer/Converters/IPacketConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Pages/PacketViewer/Converters/StatusTextConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Pages/Settings/ISettingsPageContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Pages/ShellPage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Status/IShellStatusItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Shell/Status/ShellStatusItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Behavior/LostFocusUpdateBindingBehavior.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Attitude/AttitudeIndicator.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Attitude/AttitudeIndicator.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/HierarchicalStore/HierarchicalStoreEntryTagViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/HierarchicalStore/HierarchicalStoreEntryViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/HierarchicalStore/HierarchicalStoreView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/HierarchicalStore/HierarchicalStoreView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/HierarchicalStore/HierarchicalStoreViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/BatteryIndicator.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/BatteryIndicator.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/ConnectionQuality.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/ConnectionQuality.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/DigitIndicator.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/DigitIndicator.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/GpsStatusIndicator.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/GpsStatusIndicator.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/IndicatorBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/LevelIndicator.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/LevelIndicator.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/StringIndicator.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Indicators/StringIndicator.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Actions/IMapAction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Actions/MapActionBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Actions/Mover/MapMoverActionView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Actions/Mover/MapMoverActionView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Actions/Mover/MapMoverActionViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Actions/Ruler/MapRulerActionView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Actions/Ruler/MapRulerActionView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Actions/Ruler/MapRulerActionViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Actions/Zoom/MapZoomActionView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Actions/Zoom/MapZoomActionView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Actions/Zoom/MapZoomActionViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Anchors/IMapAnchor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Anchors/MapAnchorBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Header/IMapMenuItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/IMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/MapPageView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/MapPageView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/MapPageViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Status/IMapStatusItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Widgets/AnchorEditor/AnchorsEditorView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Widgets/AnchorEditor/AnchorsEditorView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Widgets/AnchorEditor/AnchorsEditorViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Widgets/IMapWidget.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Map/Widgets/MapWidgetBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/OptionsDisplayItem/OptionsDisplayItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/OptionsDisplayItem/OptionsDisplayItemStyles.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Params/ParamItemView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Params/ParamItemView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Params/ParamItemViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Params/ParamPageView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Params/ParamPageView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/Params/ParamPageViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/DesignTime/TreePageExampleView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/DesignTime/TreePageExampleView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/DesignTime/TreePageExampleViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/DesignTime/TreePageExplorerDesignTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/ITreePage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/ITreePageContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/ITreePageExplorer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/ITreePageMenuItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/TreeGroupView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/TreeGroupView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/TreeGroupViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/TreePageExplorerView.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/TreePageExplorerView.axaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Controls/TreePage/TreePageExplorerViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Converters/AddDoubleConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Converters/AddPerсentDoubleConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Converters/EnumToBooleanConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Converters/MaterialIconConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Converters/MultipleIsNotNullConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/Converters/StringToDecimalConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/DesignTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/ExportViewAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/ProgressMessage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/PropertyComparer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/ViewModel/DisposableReactiveObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/ViewModel/DisposableReactiveObjectWithValidation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/ViewModel/IViewModelProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/ViewModel/RemoteLogMessageProxy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/Tools/WindowHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Asv.Drones.Gui.Api/WellKnownUri.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "asvol"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:asv-soft/asv-drones-gui-api.git",
+    "accountId": "717fd329-6466-4903-8568-fce173539883"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2m8ebUlDBMmkY3zMXRjE2ZZhVyV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\voloshkevich\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\voloshkevich\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\voloshkevich\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98675f87-5439-45f3-b29e-d885d92d969c" name="Changes" comment="" />
+      <created>1726462703553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726462703553</updated>
+      <workItem from="1726462705001" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

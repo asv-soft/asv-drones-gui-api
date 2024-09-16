@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asv.Drones.Gui.Api", "Asv.Drones.Gui.Api\Asv.Drones.Gui.Api.csproj", "{232EF70A-616D-47F2-9CA5-04A3D18F2C95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions items", "Solutions items", "{A8CD2F07-B6AA-44CC-8548-CDC3AC6F35B3}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		..\.github\workflows\nuget_windows.yml = ..\.github\workflows\nuget_windows.yml
+		..\.github\workflows\release-debug-version.yml = ..\.github\workflows\release-debug-version.yml
+		..\.github\workflows\release-pre-version.yml = ..\.github\workflows\release-pre-version.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asv.Drones.Gui.Api.Design", "Asv.Drones.Gui.Api.Design\Asv.Drones.Gui.Api.Design.csproj", "{8019E3DE-D23C-4CB9-AC23-74B84D436A30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{232EF70A-616D-47F2-9CA5-04A3D18F2C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232EF70A-616D-47F2-9CA5-04A3D18F2C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232EF70A-616D-47F2-9CA5-04A3D18F2C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232EF70A-616D-47F2-9CA5-04A3D18F2C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8019E3DE-D23C-4CB9-AC23-74B84D436A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8019E3DE-D23C-4CB9-AC23-74B84D436A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8019E3DE-D23C-4CB9-AC23-74B84D436A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8019E3DE-D23C-4CB9-AC23-74B84D436A30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
