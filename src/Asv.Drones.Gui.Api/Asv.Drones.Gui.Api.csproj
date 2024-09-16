@@ -7,6 +7,10 @@
         <FileVersion>$(ProductVersion)</FileVersion>
         <Version>$(ProductVersion)</Version>
         <PackageVersion>$(ProductVersion)</PackageVersion>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <RepositoryUrl>https://github.com/asv-soft/asv-drones-gui-api</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
@@ -49,6 +53,9 @@
             <Generator>PublicResXFileCodeGenerator</Generator>
             <LastGenOutput>RS.Designer.cs</LastGenOutput>
         </EmbeddedResource>
+        
+        <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+        <None Include="..\..\LICENSE" Pack="true" PackagePath="\"/>
     </ItemGroup>
     <ItemGroup>
         <Compile Update="RS.Designer.cs">
