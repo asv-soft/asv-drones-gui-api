@@ -9,7 +9,6 @@
         <PackageVersion>$(ProductVersion)</PackageVersion>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
         
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <RepositoryUrl>https://github.com/asv-soft/asv-drones-gui-api</RepositoryUrl>
