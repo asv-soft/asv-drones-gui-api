@@ -5,7 +5,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions items", "Solutions items", "{A8CD2F07-B6AA-44CC-8548-CDC3AC6F35B3}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
+		..\.github\workflows\release-action.yml = ..\.github\workflows\release-action.yml
 		..\.github\workflows\release-debug-version.yml = ..\.github\workflows\release-debug-version.yml
+		..\.github\workflows\release-pre-version.yml = ..\.github\workflows\release-pre-version.yml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asv.Drones.Gui.Api.Design", "Asv.Drones.Gui.Api.Design\Asv.Drones.Gui.Api.Design.csproj", "{8019E3DE-D23C-4CB9-AC23-74B84D436A30}"
