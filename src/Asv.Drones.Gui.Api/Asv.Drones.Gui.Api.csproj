@@ -15,13 +15,14 @@
         <RepositoryType>git</RepositoryType>
         <PackageTags>asv-drones;api;mavlink;drone;PX4;Ardupilot;.net</PackageTags>
         <PackageProjectUrl>https://github.com/asv-soft/asv-drones-gui-api</PackageProjectUrl>
-        
+        <RepositoryUrl>https://github.com/asv-soft/asv-drones-gui-api</RepositoryUrl>
         <Authors>https://github.com/asv-soft</Authors>
         <Description>API reference for Asv.Drones GUI application</Description>
         <Copyright>https://github.com/asv-soft</Copyright>
         <EnablePackageValidation>true</EnablePackageValidation>
         <ApiCompatGenerateSuppressionFile>true</ApiCompatGenerateSuppressionFile>
         <PackageValidationBaselineVersion>$(ProductPrevVersion)</PackageValidationBaselineVersion>
+        <PackageIcon>asv-icon-circle-v3.png</PackageIcon>
 
     </PropertyGroup>
     <ItemGroup>
@@ -55,6 +56,10 @@
         
         <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
         <None Include="..\..\LICENSE" Pack="true" PackagePath="\"/>
+        <None Update="asv-icon-circle-v3.png">
+          <Pack>True</Pack>
+          <PackagePath></PackagePath>
+        </None>
     </ItemGroup>
     <ItemGroup>
         <Compile Update="RS.Designer.cs">
