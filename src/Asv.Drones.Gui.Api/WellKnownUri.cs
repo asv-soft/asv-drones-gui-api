@@ -130,6 +130,9 @@ public static class WellKnownUri
 
     public const string ShellMenuParamsVehicle = $"{ShellMenu}.params-vehicle";
     public const string ShellPageParamsVehicle = $"{ShellPage}.params-vehicle";
+    
+    public const string ShellMenuVehicleFileBrowser = $"{ShellMenu}.browser-vehicle";
+    public const string ShellPageVehicleFileBrowser = $"{ShellPage}.browser-vehicle";
 
     public const string ShellMenuQuickParamsVehicle = $"{ShellMenu}.quick-params-vehicle";
     
@@ -150,6 +153,7 @@ public static class WellKnownUri
     public const string ShellPageQuickParamsPx4CopterVehicleStandard = $"{ShellPageQuickParamsPx4CopterVehicle}.standard-params";
     
     public const string ShellPageQuickParamsPx4PlaneVehicleStandard = $"{ShellPageQuickParamsPx4PlaneVehicle}.standard-params";
+    
     
     public const string ShellMenuLogViewer = $"{ShellMenu}.log-viewer";
     public static readonly Uri ShellMenuLogViewerUri = new(ShellMenuLogViewer);
