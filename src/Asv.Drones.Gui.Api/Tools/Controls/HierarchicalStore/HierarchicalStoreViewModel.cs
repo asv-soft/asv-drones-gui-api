@@ -108,7 +108,67 @@ public class HierarchicalStoreViewModel : ViewModelBase
                                     Name = "Record 2",
                                     IsFile = true,
                                 },
-                            }))
+                                new()
+                                {
+                                    Id = Guid.NewGuid(),
+                                    Name = "Record 2",
+                                    IsFile = true,
+                                },
+                                new()
+                                {
+                                    Id = Guid.NewGuid(),
+                                    Name = "Record 2",
+                                    IsFile = true,
+                                },
+                                new()
+                                {
+                                    Id = Guid.NewGuid(),
+                                    Name = "Record 2",
+                                    IsFile = true,
+                                },
+                                new()
+                                {
+                                    Id = Guid.NewGuid(),
+                                    Name = "Record 2",
+                                    IsFile = true,
+                                },
+                                new()
+                                {
+                                    Id = Guid.NewGuid(),
+                                    Name = "Record 2",
+                                    IsFile = true,
+                                },
+                                new()
+                                {
+                                    Id = Guid.NewGuid(),
+                                    Name = "Record 2",
+                                    IsFile = true,
+                                },
+                                new()
+                                {
+                                    Id = Guid.NewGuid(),
+                                    Name = "Record 2",
+                                    IsFile = true,
+                                },
+                                new()
+                                {
+                                    Id = Guid.NewGuid(),
+                                    Name = "Record 2",
+                                    IsFile = true,
+                                },
+                                new()
+                                {
+                                    Id = Guid.NewGuid(),
+                                    Name = "Record 2",
+                                    IsFile = true,
+                                },
+                                new()
+                                {
+                                    Id = Guid.NewGuid(),
+                                    Name = "Record 2",
+                                    IsFile = true,
+                                },
+                            })),
                 },
             }));
         FolderItems = new ReadOnlyObservableCollection<HierarchicalStoreEntryViewModel>(

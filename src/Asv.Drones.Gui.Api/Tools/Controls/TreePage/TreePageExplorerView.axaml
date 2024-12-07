@@ -149,7 +149,7 @@
                 </ItemsControl.ItemsPanel>
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <Panel MinWidth="80">
+                        <Panel MinWidth="80" IsVisible="{Binding IsVisible}">
                             <Button x:Name="Button" IsVisible="{Binding !Items.Count}" Command="{Binding Command}"
                                     CommandParameter="{Binding CommandParameter}">
                                 <StackPanel Orientation="Horizontal" Spacing="4">
